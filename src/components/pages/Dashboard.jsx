@@ -12,7 +12,7 @@ import AirlineSeatReclineExtraRoundedIcon from '@mui/icons-material/AirlineSeatR
 const Dashboard = () => {
   return (
     <div className='p-8'>
-        <NavHeader />
+        <NavHeader title={'Dashboard'} />
         <div className='flex items-center w-full h-[80vh] gap-20'>
             <Sidebar/>
             
