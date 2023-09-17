@@ -16,7 +16,7 @@ const Signup = () => {
         <div className='w-full border border-4 border-slate-500 border-dashed h-1 '></div>
         </div>
       </div>
-      <div className='ml-20 w-[40%] h-[90%] auth-glass text-left p-16 z-10'>
+      <div className='ml-20 w-[40%] h-[90%] auth-glass text-left p-10 z-10'>
         <div>
         <h3 className='mt-6'>Signup</h3>
         <p className='text-sm mt-4'>just some details to get you in.!</p>
