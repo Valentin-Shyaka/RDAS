@@ -6,9 +6,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 const Signup = () => {
   return (
-    <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-screen gap-10'>
-      <div className='bubble w-[300px] h-[300px] absolute left-[50vw] top-[2vh]'></div>
-      <div className='bubble w-[200px] h-[200px] absolute left-[80vw] top-[75vh]'></div>
+    <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-full gap-10'>
+      <div className='bubble w-[300px] h-[300px] absolute left-[45%] top-[2%]'></div>
+      <div className='bubble w-[200px] h-[200px] absolute left-[85%] top-[75%]'></div>
       <div className=' flex flex-col'>
         <p className=' text-6xl'>Roll the carpet.!</p>
         <div className='flex items-center gap-4'>
@@ -16,7 +16,7 @@ const Signup = () => {
         <div className='w-full border border-4 border-slate-500 border-dashed h-[1px] '></div>
         </div>
       </div>
-      <div className='ml-20 w-[500px] h-[80vh] auth-glass text-left p-12 z-10'>
+      <div className='ml-20 w-[40%] h-[90%] auth-glass text-left p-12 z-10'>
         <div>
         <h3 className='mt-6'>Signup</h3>
         <p className='text-sm mt-4'>just some details to get you in.!</p>
@@ -40,7 +40,7 @@ const Signup = () => {
         </div>
         <div className='text-sm text-center mt-6'>
           <p>Already registered? signin</p>
-          <div className='flex gap-6 mt-6'>
+          <div className='flex gap-6 mt-6 justify-between'>
             <p>Terms&conditions</p>
             <p>support</p>
             <p>customer care</p>
