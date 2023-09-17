@@ -8,7 +8,7 @@ const Signup = () => {
   return (
     <div className='text-center text-3xl justify-center p-4 flex  items-center h-full w-full gap-10'>
       <div className='bubble w-[200px] h-[200px] absolute left-[40%] top-[2%]'></div>
-      <div className='bubble w-[100px] h-[100px] absolute left-[80%] top-[75%]'></div>
+      <div className='bubble w-[150px] h-[150px] absolute left-[80%] top-[75%]'></div>
       <div className=' flex flex-col'>
         <p className=' text-4xl'>Roll the carpet.!</p>
         <div className='flex items-center gap-4'>
