@@ -7,6 +7,7 @@ import Signup from "./components/auth/Signup";
 import Dashboard from "./components/pages/Dashboard";
 import ForgotPassword from "./components/auth/ForgotPassword";
 import Screen from "./components/pages/Screen";
+import Settings from "./components/pages/Settings";
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path="/reset" element={<ForgotPassword/>}/>
       <Route path="/dashboard" element={<Dashboard/>}/>
       <Route path="/screen" element={<Screen/>}/>
+      <Route path="/settings" element={<Settings/>}/>
     </Routes>
     </div>
     </BrowserRouter>
