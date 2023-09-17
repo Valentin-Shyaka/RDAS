@@ -51,7 +51,7 @@ const Settings = () => {
   return (
     <div className='p-4 text-[0.8rem]'>
         <NavHeader title={'Settings'} />
-        <div className='flex items-center w-full h-[60%] gap-20 mt-6'>
+        <div className='flex items-center w-full h-[60%] gap-20 mt-2'>
             <Sidebar/>
             <div className='w-full'>
                 <div className='flex w-full gap-10 text-slate-300 font-bold cursor-pointer h-4'>
@@ -64,7 +64,7 @@ const Settings = () => {
                     <h3 className='font-bold'>Profile</h3>
                     <p className='text-sm text-slate-400 mt-2'>Update your photo and personnal details here</p>
                     <hr className='mt-2 bg-slate-400 '/>
-
+                    <div className='w-[80%]'>
                     <div className='flex w-full gap-40'>
                         <Field label={"Live in"} Icon={HomeOutlinedIcon} placeholder={'Zurich, Switzerland'}/>
                         <Field label={"Street address"} Icon={HomeOutlinedIcon} placeholder={'2445 Crosswind Drive'}/>
@@ -73,6 +73,7 @@ const Settings = () => {
                     <div className='flex w-full gap-40'>
                         <Field label={"Date of Birth"} Icon={CakeOutlinedIcon} placeholder={'25.8.2006'}/>
                         <Field label={"Gender"} Icon={MaleOutlinedIcon} placeholder={'Male'}/>
+                    </div>
                     </div>
                     <hr className='mt-2 bg-slate-400 '/>
                     <div className='flex mt-2 justify-between  h-16 items-center'>
