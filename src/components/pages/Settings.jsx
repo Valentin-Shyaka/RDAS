@@ -75,7 +75,7 @@ const Settings = () => {
                         <Field label={"Gender"} Icon={MaleOutlinedIcon} placeholder={'Male'}/>
                     </div>
                     </div>
-                    <hr className='mt-2 bg-slate-400 '/>
+                    <hr className='mt-4 bg-slate-400 '/>
                     <div className='flex mt-2 justify-between  h-16 items-center'>
                         <div>
                             <h3 className='font-bold'>Your Profile</h3>
