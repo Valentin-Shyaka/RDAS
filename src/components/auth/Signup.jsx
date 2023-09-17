@@ -26,7 +26,7 @@ const Signup = () => {
         <input type='text' placeholder='Password' className='mt-4 bg-inherit border border-white rounded-md text-sm h-10 w-full p-2 outline-none'></input>
         <input type='text' placeholder='confirm password' className='mt-4 bg-inherit border border-white rounded-md text-sm h-10 w-full p-2 outline-none'></input>
 
-          <button className='w-full text-sm w-full h-12 mt-6 auth-button '>Signup</button>
+          <button className='w-full text-sm h-12 mt-6 auth-button '>Signup</button>
         </div>
         <div className='flex items-center w-full h-4 text-center mt-4 gap-2'>
           <hr className='flex-1 '/> <p className='text-sm'>or</p> <hr className='flex-1' />
@@ -40,7 +40,7 @@ const Signup = () => {
         </div>
         <div className='text-sm text-center mt-6'>
           <p>Already registered? signin</p>
-          <div className='flex gap-6 mt-6 justify-between'>
+          <div className='flex mt-6 justify-between'>
             <p>Terms&conditions</p>
             <p>support</p>
             <p>customer care</p>
