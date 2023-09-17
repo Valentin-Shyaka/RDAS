@@ -3,7 +3,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Badge } from '@mui/material';
 
-const NavHeader = () => {
+const NavHeader = (title) => {
   return (
     <div className='flex w-full h-fit items-center gap-16 mb-4'>
         <svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46" fill="none">

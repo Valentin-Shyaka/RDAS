@@ -6,6 +6,7 @@ import Signin from "./components/auth/Signin";
 import Signup from "./components/auth/Signup";
 import Dashboard from "./components/pages/Dashboard";
 import ForgotPassword from "./components/auth/ForgotPassword";
+import Screen from "./components/pages/Screen";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/reset" element={<ForgotPassword/>}/>
       <Route path="/dashboard" element={<Dashboard/>}/>
+      <Route path="/screen" element={<Screen/>}/>
     </Routes>
     </div>
     </BrowserRouter>
