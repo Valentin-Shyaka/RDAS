@@ -39,7 +39,7 @@ const Settings = () => {
     }
     const Field=({Icon,placeholder,label})=>{
         return(
-            <div className='mt-2 w-full'>
+            <div className='mt-4 w-full'>
             <p className='text-slate-300 '>{label}</p>
             <div className='w-full flex border border-slate-400 rounded-lg h-8 items-center gap-4 text-slate-400 p-2 mt-2'>
                 <Icon/>
