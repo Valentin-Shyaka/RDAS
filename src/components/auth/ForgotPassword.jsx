@@ -3,8 +3,8 @@ import React from 'react'
 const ForgotPassword = () => {
   return (
     <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-screen gap-10'>
-      <div className='bubble w-[200px] h-[200px] absolute left-[42%] top-[2%]'></div>
-      <div className='bubble w-[150px] h-[150px] absolute left-[82%] top-[75%]'></div>
+      <div className='bubble w-[200px] h-[200px] absolute left-[42%] top-[4%]'></div>
+      <div className='bubble w-[150px] h-[150px] absolute left-[82%] top-[70%]'></div>
       <div className=' flex flex-col'>
         <p className=' text-4xl'>No worries.!!</p>
         <div className='flex items-center gap-4'>
