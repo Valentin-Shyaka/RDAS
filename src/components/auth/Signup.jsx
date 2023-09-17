@@ -10,7 +10,7 @@ const Signup = () => {
       <div className='bubble w-[300px] h-[300px] absolute left-[45%] top-[2%]'></div>
       <div className='bubble w-[200px] h-[200px] absolute left-[85%] top-[75%]'></div>
       <div className=' flex flex-col'>
-        <p className=' text-6xl'>Roll the carpet.!</p>
+        <p className=' text-3xl'>Roll the carpet.!</p>
         <div className='flex items-center gap-4'>
         <button className=' border border-white border-[4px] w-[200px] mt-4 h-16 text-sm'>skip the lag ?</button>
         <div className='w-full border border-4 border-slate-500 border-dashed h-[1px] '></div>
