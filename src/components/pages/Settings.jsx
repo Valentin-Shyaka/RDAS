@@ -49,7 +49,7 @@ const Settings = () => {
         )
     }
   return (
-    <div className='p-2'>
+    <div className='p-4'>
         <NavHeader title={'Settings'} />
         <div className='flex items-center w-full h-[60%] gap-20 mt-6'>
             <Sidebar/>
