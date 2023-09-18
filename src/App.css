@@ -38,3 +38,11 @@ background: linear-gradient(91deg, #CFF80B 9.91%, #1EBF68 53.29%, #14162D 91.56%
     border-radius: 302px;
 background: linear-gradient(180deg, #CFF80B 0%, rgba(10, 27, 48, 0.63) 100%);
 }
+.car-elipse{
+border-radius: 540px;
+border: 4px solid #87888C;
+background: linear-gradient(180deg, rgba(207, 248, 11, 0.20) 42.64%, #CFF80B 100%);
+}
+.bg-eron{
+    background: lightgray 50% / cover no-repeat;
+}

@@ -10,6 +10,12 @@ import SmsRoundedIcon from '@mui/icons-material/SmsRounded';
 import AirlineSeatReclineExtraRoundedIcon from '@mui/icons-material/AirlineSeatReclineExtraRounded';
 import PrivacyTipIcon from '@mui/icons-material/PrivacyTip';
 import Switch, { SwitchProps } from '@mui/material/Switch';
+import LockIcon from '@mui/icons-material/Lock';
+import LockOpenIcon from '@mui/icons-material/LockOpen';
+import LightModeIcon from '@mui/icons-material/LightMode';
+import FingerprintIcon from '@mui/icons-material/Fingerprint';
+import TonalityIcon from '@mui/icons-material/Tonality';
+import ApexChart from '../ReactApexChart';
 
 import { styled } from '@mui/material/styles';
 
@@ -193,7 +199,7 @@ const Dashboard = () => {
             </div>
             
             </div>
-            <div>
+            <div className=' h-fit p-2'>
                 <div className='bg-[#1E1E1E] p-4 flex rounded-xl items-center justify-between gap-4'>
                     <div className='bg-[#2f2f2f] text-center align-middle p-4 rounded-xl'>
                         <PrivacyTipIcon className='text-red-500'/>
@@ -205,6 +211,46 @@ const Dashboard = () => {
                     <div>
                         <IOSSwitch/>
                     </div>
+
+                </div>
+                <div className='relative h-fit w-full'>
+                    <img src="./car_2.png" alt="" srcset="" className='  w-full object-cover h-40 '/>
+                    <div className='absolute items-center text-center p-4 bg-[#1E1E1E] top-10 left-10 rounded-full'>
+                            <LockIcon/>
+
+                    </div>
+                    <div className='absolute items-center text-center p-4 bg-[#d1f80ba1] top-10 left-[20rem] rounded-full'>
+                            <LockOpenIcon/>
+
+                    </div>
+                    <div className='flex w-full justify-center gap-4'>
+                        <div>
+                            <div className=' items-center text-center p-6 bg-[#5b5a5a]  rounded-full'>
+                                    <LightModeIcon/>
+
+                            </div>
+                            <p className='text-sm text-slate-300 mt-2'>Brightness</p>
+                        </div>
+                        <div>
+                            <div className=' items-center text-center p-6 bg-[#5b5a5a]  rounded-full'>
+                                    <FingerprintIcon/>
+
+                            </div>
+                            <p className='text-sm text-slate-300 mt-2'>Fingerprint</p>
+                        </div>
+                        <div>
+                            <div className=' items-center text-center p-6 bg-[#5b5a5a]  rounded-full'>
+                                    <TonalityIcon/>
+
+                            </div>
+                            <p className='text-sm text-slate-300 mt-2'>Statistics</p>
+                        </div>
+
+                    </div>
+                    <div className='w-full h-30'>
+                        <ApexChart className='w-[20rem]'/>
+                    </div>
+
 
                 </div>
             </div>
