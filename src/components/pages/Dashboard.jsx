@@ -83,7 +83,7 @@ const Dashboard = () => {
                                 </div>
 
                             </div>
-                            <div className=' w-[20vw] h-[22vh] bg-[#1E1E1E] rounded-2xl p-4 relative'>
+                            <div className=' w-[20vw] h-fit  bg-[#1E1E1E] rounded-2xl p-4 relative'>
                                 <h3 className='font-bold'>My calendar</h3>
                                 <span className='text-sm text-slate-400'>5 Aug-2022</span>
                                 <hr className='w-full bg-[#CFF80B] h-1'/>
@@ -96,7 +96,7 @@ const Dashboard = () => {
 
                                 </div>
 
-                                <div className='absolute w-[65%] h-16 bg-[#484848] rounded-lg left-20 top-20 border-l-4 border-[#CFF80B] text-center p-2'>
+                                <div className='absolute w-[65%] h-16 bg-[#484848] rounded-lg left-20 top-16 border-l-4 border-[#CFF80B] text-center p-2'>
                                     <h3 className='text-[0.7rem] font-bold'>Meeting with clients</h3>
                                     <span className='text-[0.7rem] text-slate-400'>5:00 AM - 6:20 AM</span>
 
@@ -111,7 +111,7 @@ const Dashboard = () => {
             </div>
             <div>
             <MusicPlayer/>
-            <div className='flex mt-6 gap-8 '>
+            <div className='flex mt-6 justify-between '>
                 <div className='w-24 h-20 bg-[#1E1E1E] rounded-lg text-center p-2'>
                     <OpacityRoundedIcon className='mt-2'/>
                     <p className='text-sm mt-2'>humidity</p>
