@@ -15,7 +15,7 @@ const CarDetails = () => {
           LET'S GO
         </button>
       </div>
-      <div className="flex flex-col border-[3px] rounded-lg items-center p-4 gap-4">
+      <div className="flex flex-col border-[3px] rounded-lg items-center p-4 gap-4 md:hidden lg:block">
         <div className="w-[15rem] h-[22rem] bg-[#1d1d1c] rounded-lg">
           <img src="./car.png" alt="" />
         </div>
