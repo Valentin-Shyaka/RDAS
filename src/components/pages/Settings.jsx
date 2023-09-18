@@ -63,7 +63,7 @@ const Settings = () => {
                 </div>
                 <div className='w-[80%] border border-1 border-slate-400 rounded-3xl h-fit p-4 mt-4'>
                     <h3 className='font-bold'>Profile</h3>
-                    <p className='text-sm text-slate-400 mt-2'>Update your photo and personnal details here</p>
+                    <p className='text-sm text-slate-400 mt-2 md:hidden'>Update your photo and personnal details here</p>
                     <hr className='mt-2 bg-slate-400 '/>
                     <div className='w-[80%]'>
                     <div className='flex  w-full justify-between gap-4'>
@@ -80,7 +80,7 @@ const Settings = () => {
                     <div className='flex mt-2 justify-between  h-16 items-center'>
                         <div>
                             <h3 className='font-bold'>Your Profile</h3>
-                            <p className='text-sm text-slate-400'>This will be displayed on your profile.</p>
+                            <p className='text-sm text-slate-400 md:hidden'>This will be displayed on your profile.</p>
                         </div>
                         <img src="./user_profile.png" alt="" srcset="" className='rounded-full w-16 h-16' />
                         <div className='flex gap-10 font-bold text-slate-400'>
