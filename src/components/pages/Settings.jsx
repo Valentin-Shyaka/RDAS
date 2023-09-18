@@ -66,12 +66,12 @@ const Settings = () => {
                     <p className='text-sm text-slate-400 mt-2'>Update your photo and personnal details here</p>
                     <hr className='mt-2 bg-slate-400 '/>
                     <div className='w-[80%]'>
-                    <div className='flex w-full gap-40'>
+                    <div className='flex  w-full justify-between gap-4'>
                         <Field label={"Live in"} Icon={HomeOutlinedIcon} placeholder={'Zurich, Switzerland'}/>
                         <Field label={"Street address"} Icon={HomeOutlinedIcon} placeholder={'2445 Crosswind Drive'}/>
                     </div>
                     <Field label={'Email Address'} Icon={MailOutlineOutlinedIcon} placeholder={'yourEmail@gmail.com'}/>
-                    <div className='flex w-full gap-40'>
+                    <div className='flex  w-full justify-between gap-4'>
                         <Field label={"Date of Birth"} Icon={CakeOutlinedIcon} placeholder={'25.8.2006'}/>
                         <Field label={"Gender"} Icon={MaleOutlinedIcon} placeholder={'Male'}/>
                     </div>
