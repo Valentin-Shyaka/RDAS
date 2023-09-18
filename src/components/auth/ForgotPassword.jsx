@@ -28,7 +28,7 @@ const ForgotPassword = () => {
        
         <div className='text-sm text-center mt-6'>
           <p>Dont't have an account? signup</p>
-          <div className='flex  mt-6 justify-between'>
+          <div className='flex  mt-6 justify-between md:text-[0.8rem]'>
             <p>Terms&conditions</p>
             <p>support</p>
             <p>customer care</p>
