@@ -7,6 +7,7 @@ import MailOutlineOutlinedIcon from '@mui/icons-material/MailOutlineOutlined';
 import CakeOutlinedIcon from '@mui/icons-material/CakeOutlined';
 import MaleOutlinedIcon from '@mui/icons-material/MaleOutlined';
 
+
 const Settings = () => {
     const [active,setActive]= useState(false)
     const [text,setText]=useState("My details")
