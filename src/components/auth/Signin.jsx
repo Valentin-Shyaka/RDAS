@@ -7,9 +7,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 const Signin = () => {
   return (
     <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-screen gap-10'>
-      <div className='bubble w-[200px] h-[200px] absolute left-[42%] top-[2%]'></div>
-      <div className='bubble w-[150px] h-[150px] absolute left-[82%] top-[75%]'></div>
-      <div className=' flex flex-col'>
+      <div className='bubble w-[200px] h-[200px] absolute left-[42%] top-[2%] md:hidden'></div>
+      <div className='bubble w-[150px] h-[150px] absolute left-[82%] top-[75%] md:hidden '></div>
+      <div className=' flex flex-col md:hidden'>
         <p className=' text-4xl'>Welcome Back.!</p>
         <div className='flex items-center gap-4'>
         <button className=' border border-white border-4 w-80 mt-4 h-16 text-sm'>skip the lag ?</button>

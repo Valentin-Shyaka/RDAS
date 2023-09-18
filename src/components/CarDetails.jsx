@@ -1,10 +1,10 @@
 const CarDetails = () => {
   return (
-    <div className="flex flex-wrap bg-black min-h-screen items-center justify-center w-screen gap-4 lg:gap-10 p-4">
-      <div className="flex flex-col border-[3px] rounded-lg items-center p-4 gap-4">
+    <div className="flex flex-wrap bg-inherit  items-center justify-center w-full gap-4 lg:gap-10 p-4">
+      <div className="flex flex-col border-[3px] rounded-lg items-center  p-4 gap-4">
         <span className="text-3xl font-semibold">Reach Out</span>
         <span className="text-[#CFF80B] text-lg">Your Space</span>
-        <div className=" w-[400px] h-[380px]">
+        <div className=" w-[400px] h-[300px]">
           <img src="./car.png" alt="h-auto w-full" />
         </div>
         <div className="flex flex-col w-[23rem] items-center justify-center bg-[#1d6d9b42] p-6 rounded-lg gap-4">
@@ -16,7 +16,7 @@ const CarDetails = () => {
         </button>
       </div>
       <div className="flex flex-col border-[3px] rounded-lg items-center p-4 gap-4">
-        <div className="w-[400px] h-[36rem] bg-[#1d1d1c] rounded-lg">
+        <div className="w-[400px] h-[31rem] bg-[#1d1d1c] rounded-lg">
           <img src="./car.png" alt="" />
         </div>
         <div className="flex p-4 gap-4">
@@ -49,11 +49,11 @@ const CarDetails = () => {
             REVIEW NOW
           </button>
         </div>
-        <div className="w-[365px] h-[15rem] bg-slate-500 rounded-md">
+        <div className="w-[365px] h-[10rem] bg-slate-500 rounded-md">
           <img
             src="./gps.jpg"
             alt=""
-            className="object-cover max-h-[15rem] w-full h-auto rounded-md"
+            className="object-cover max-h-[10rem] w-full h-auto rounded-md"
           />
         </div>
       </div>
