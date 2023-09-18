@@ -8,6 +8,7 @@ import Dashboard from "./components/pages/Dashboard";
 import ForgotPassword from "./components/auth/ForgotPassword";
 import Screen from "./components/pages/Screen";
 import Settings from "./components/pages/Settings";
+import CarDetails from "./components/CarDetails";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <Route path="/dashboard" element={<Dashboard/>}/>
       <Route path="/screen" element={<Screen/>}/>
       <Route path="/settings" element={<Settings/>}/>
+      <Route path="/car-details" element={<CarDetails />} />
     </Routes>
     </div>
     </BrowserRouter>
