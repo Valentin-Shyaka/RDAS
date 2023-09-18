@@ -1,10 +1,10 @@
 const CarDetails = () => {
   return (
-    <div className="flex flex-wrap bg-inherit  items-center justify-center w-full gap-4 lg:gap-10 p-4">
+    <div className="flex flex-wrap bg-inherit  items-center justify-center w-full gap-4 lg:gap-6 p-4">
       <div className="flex flex-col border-[3px] rounded-lg items-center  p-4 gap-4">
         <span className="text-3xl font-semibold">Reach Out</span>
         <span className="text-[#CFF80B] text-lg">Your Space</span>
-        <div className=" w-[400px] h-[300px]">
+        <div className=" w-[20rem] h-[10rem]">
           <img src="./car.png" alt="h-auto w-full" />
         </div>
         <div className="flex flex-col w-[23rem] items-center justify-center bg-[#1d6d9b42] p-6 rounded-lg gap-4">
@@ -16,7 +16,7 @@ const CarDetails = () => {
         </button>
       </div>
       <div className="flex flex-col border-[3px] rounded-lg items-center p-4 gap-4">
-        <div className="w-[400px] h-[31rem] bg-[#1d1d1c] rounded-lg">
+        <div className="w-[20rem] h-[22rem] bg-[#1d1d1c] rounded-lg">
           <img src="./car.png" alt="" />
         </div>
         <div className="flex p-4 gap-4">
@@ -32,7 +32,7 @@ const CarDetails = () => {
       </div>
       <div className="flex flex-col items-center gap-2 p-4 border-[3px] rounded-lg">
         <div className="flex flex-col items-center">
-          <div className="w-[400px] h-[60%]">
+          <div className="w-[20rem] h-[60%]">
             <img src="./car.png" alt="" />
           </div>
           <div className="flex p-4 gap-4">
