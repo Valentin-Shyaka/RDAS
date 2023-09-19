@@ -1,7 +1,41 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
+import Snackbar from '@mui/material/Snackbar';
+import { Button } from '@mui/material';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';  
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 const ForgotPassword = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
+
+  const action = (
+    <React.Fragment>
+      <Button color="secondary" size="small" onClick={handleClose}>
+        UNDO
+      </Button>
+      <IconButton
+        size="small"
+        aria-label="close"
+        color="inherit"
+        onClick={handleClose}
+      >
+        <CloseIcon fontSize="small" />
+      </IconButton>
+    </React.Fragment>
+  );
   const navigate=useNavigate()
   return (
     <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-screen gap-10'>
@@ -24,7 +58,28 @@ const ForgotPassword = () => {
         
         
 
-          <button className='w-full text-sm  h-12 mt-8 auth-button ' onClick={()=>{navigate('/')}}>Reset pasword</button>
+        <button className='w-full text-sm h-12 mt-6 auth-button ' onClick={()=>{
+         setTimeout(()=>{
+          navigate('/');
+         },3000) 
+         handleClick()
+         
+         
+          }}>Reset</button>
+        <Snackbar
+        open={open}
+        autoHideDuration={6000}
+        onClose={handleClose}
+        message="Password reset"
+        action={action}
+      />
+       <Backdrop
+  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1, }}
+  open={open}
+  onClick={handleClose}
+>
+  <CircularProgress color="inherit" />
+</Backdrop>
           
         </div>
        

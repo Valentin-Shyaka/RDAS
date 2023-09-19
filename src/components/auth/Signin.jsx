@@ -78,7 +78,7 @@ const Signin = () => {
         open={open}
         autoHideDuration={6000}
         onClose={handleClose}
-        message="User signed up"
+        message="Proceeding"
         action={action}
       />
        <Backdrop
