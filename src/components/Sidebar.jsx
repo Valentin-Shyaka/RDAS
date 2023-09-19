@@ -8,7 +8,7 @@ import SettingsRoundedIcon from '@mui/icons-material/SettingsRounded';
 
 const Sidebar = () => {
   return (
-    <div className=' '>
+    <div className=' md:hidden lg:block'>
         <div className='rounded-full bg-[#505050] w-14 h-14 text-center text-5xl flex-col mt-6 cursor-pointer'>
             <HomeRoundedIcon/>
         </div>
