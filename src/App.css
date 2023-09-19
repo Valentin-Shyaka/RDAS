@@ -1,40 +1,53 @@
-.glass{
- /* From https://css.glass */
-background: rgba(255, 255, 255, 0);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+.glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.user-icon{
-    bottom: 0;
+.user-icon {
+  bottom: 0;
 }
-.home-glass{
-    /* From https://css.glass */
-background: rgba(255, 255, 255, 0.2);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(5px);
--webkit-backdrop-filter: blur(5px);
-border: 1px solid rgba(255, 255, 255, 0.3);
+.home-glass {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
-.bg-page{
-    background: radial-gradient(47.68% 47.68% at 51.34% 52.32%, rgba(139, 127, 135, 0.15) 0%, rgba(88, 83, 87, 0.0138) 48.69%, rgba(217, 217, 217, 0) 100%)
+.bg-page {
+  background: radial-gradient(
+    47.68% 47.68% at 51.34% 52.32%,
+    rgba(139, 127, 135, 0.15) 0%,
+    rgba(88, 83, 87, 0.0138) 48.69%,
+    rgba(217, 217, 217, 0) 100%
+  );
 }
-.auth-glass{
-background: rgba( 255, 255, 255, 0 );
-box-shadow: 0 8px 32px 0 rgba(13, 13, 22, 0.37);
-backdrop-filter: blur( 7.5px );
--webkit-backdrop-filter: blur( 7.5px );
-border-radius: 10px;
-border: 1px solid rgba( 255, 255, 255, 0.18 );
+.auth-glass {
+  background: rgba(255, 255, 255, 0);
+  box-shadow: 0 8px 32px 0 rgba(13, 13, 22, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
-.auth-button{
-    border-radius: 12px;
-background: linear-gradient(91deg, #CFF80B 9.91%, #1EBF68 53.29%, #14162D 91.56%);
+.auth-button {
+  border-radius: 12px;
+  background: linear-gradient(
+    91deg,
+    #cff80b 9.91%,
+    #1ebf68 53.29%,
+    #14162d 91.56%
+  );
 }
-.bubble{
-    border-radius: 302px;
-background: linear-gradient(180deg, #CFF80B 0%, rgba(10, 27, 48, 0.63) 100%);
+.bubble {
+  border-radius: 302px;
+  background: linear-gradient(180deg, #cff80b 0%, rgba(10, 27, 48, 0.63) 100%);
+}
+.second-div {
+  background: linear-gradient(180deg, #a4b167 0%, rgba(35, 67, 155, 0.63) 100%);
 }

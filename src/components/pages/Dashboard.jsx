@@ -8,8 +8,10 @@ import AirRoundedIcon from '@mui/icons-material/AirRounded';
 import BluetoothRoundedIcon from '@mui/icons-material/BluetoothRounded';
 import SmsRoundedIcon from '@mui/icons-material/SmsRounded';
 import AirlineSeatReclineExtraRoundedIcon from '@mui/icons-material/AirlineSeatReclineExtraRounded';
+import { useNavigate } from 'react-router-dom';
 
 const Dashboard = () => {
+    const navigate= useNavigate()
   return (
     <div className='p-8'>
         <NavHeader title={'Dashboard'} />
