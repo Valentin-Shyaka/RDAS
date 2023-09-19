@@ -32,7 +32,7 @@ const Signin = () => {
         </div>
 
           <button className='w-full text-sm h-12 mt-8 auth-button ' onClick={()=>{navigate('/screen')}}>Signin</button>
-          <p className='text-sm text-center mt-6' onClick={()=>{navigate('/reset')}}>Forgot password? </p>
+          <p className='text-sm text-center mt-6' >Forgot password? <span onClick={()=>{navigate('/reset')}}>reset</span> </p>
         </div>
         <div className='flex items-center w-full h-4 text-center mt-4 gap-2'>
           <hr className='flex-1 '/> <p className='text-sm'>or</p> <hr className='flex-1' />
