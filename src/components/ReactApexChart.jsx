@@ -31,21 +31,30 @@ export default function ApexChart() {
             }
           },
           fill: {
-            type: 'gradient',
+            colors:['#CFF80B'],
+            opacity:0.9,
+            type:'solid',
+            
             gradient: {
                 shade: 'dark',
+                type:'horizontal',
                 shadeIntensity: 0.15,
-                inverseColors: false,
+                gradientToColors: undefined,
+                inverseColors: true,
                 opacityFrom: 1,
                 opacityTo: 1,
-                stops: [0, 50, 65, 91]
+                sstops: [0, 50, 100],
+                colorStops: []
             },
-            fill: {
-                colors: ['#1A73E8', '#B32824']
-              }
+          
           },
           stroke: {
-            dashArray: 4
+            show: true,
+            curve: 'smooth',
+            lineCap: 'butt',
+            colors: undefined,
+            width: 2,
+            dashArray: 0,
           },
           labels: ['Km/H'],
         };

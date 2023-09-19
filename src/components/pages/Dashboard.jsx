@@ -214,7 +214,7 @@ const Dashboard = () => {
 
                 </div>
                 <div className='relative h-fit w-full'>
-                    <img src="./car_2.png" alt="" srcset="" className='  w-full object-cover h-40 '/>
+                    <img src="./car.png" alt="" srcset="" className='  w-full object-cover h-32 '/>
                     <div className='absolute items-center text-center p-4 bg-[#1E1E1E] top-10 left-10 rounded-full'>
                             <LockIcon/>
 
@@ -225,21 +225,21 @@ const Dashboard = () => {
                     </div>
                     <div className='flex w-full justify-center gap-4'>
                         <div>
-                            <div className=' items-center text-center p-6 bg-[#5b5a5a]  rounded-full'>
+                            <div className=' items-center text-center p-4 bg-[#5b5a5a]  rounded-full'>
                                     <LightModeIcon/>
 
                             </div>
                             <p className='text-sm text-slate-300 mt-2'>Brightness</p>
                         </div>
                         <div>
-                            <div className=' items-center text-center p-6 bg-[#5b5a5a]  rounded-full'>
+                            <div className=' items-center text-center p-4 bg-[#5b5a5a]  rounded-full'>
                                     <FingerprintIcon/>
 
                             </div>
                             <p className='text-sm text-slate-300 mt-2'>Fingerprint</p>
                         </div>
                         <div>
-                            <div className=' items-center text-center p-6 bg-[#5b5a5a]  rounded-full'>
+                            <div className=' items-center text-center p-4 bg-[#5b5a5a]  rounded-full'>
                                     <TonalityIcon/>
 
                             </div>
