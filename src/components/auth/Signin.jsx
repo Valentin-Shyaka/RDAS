@@ -3,10 +3,45 @@ import GoogleIcon from '@mui/icons-material/Google';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { useNavigate } from 'react-router-dom';
+import Snackbar from '@mui/material/Snackbar';
+import { Button } from '@mui/material';
+import IconButton from '@mui/material/IconButton';
+import CloseIcon from '@mui/icons-material/Close';  
+import Backdrop from '@mui/material/Backdrop';
+import CircularProgress from '@mui/material/CircularProgress';
 
 
 
 const Signin = () => {
+  const [open, setOpen] = React.useState(false);
+  const handleClick = () => {
+    setOpen(true);
+  };
+
+  const handleClose = (event, reason) => {
+    if (reason === 'clickaway') {
+      return;
+    }
+
+    setOpen(false);
+  };
+
+  const action = (
+    <React.Fragment>
+      <Button color="secondary" size="small" onClick={handleClose}>
+        UNDO
+      </Button>
+      <IconButton
+        size="small"
+        aria-label="close"
+        color="inherit"
+        onClick={handleClose}
+      >
+        <CloseIcon fontSize="small" />
+      </IconButton>
+    </React.Fragment>
+  );
+  
   const navigate=useNavigate()
   return (
     <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-screen gap-10'>
@@ -31,7 +66,29 @@ const Signin = () => {
         <input type="checkbox" name="remember" id="" /><p className='text-sm'>Remember me</p>
         </div>
 
-          <button className='w-full text-sm h-12 mt-8 auth-button ' onClick={()=>{navigate('/dashboard')}}>Signin</button>
+        <button className='w-full text-sm h-12 mt-6 auth-button ' onClick={()=>{
+         setTimeout(()=>{
+          navigate('/dashboard');
+         },3000) 
+         handleClick()
+         
+         
+          }}>Signin</button>
+        <Snackbar
+        open={open}
+        autoHideDuration={6000}
+        onClose={handleClose}
+        message="User signed up"
+        action={action}
+      />
+       <Backdrop
+  sx={{ color: '#fff', zIndex: (theme) => theme.zIndex.drawer + 1, }}
+  open={open}
+  onClick={handleClose}
+>
+  <CircularProgress color="inherit" />
+</Backdrop>
+     
           <p className='text-sm text-center mt-6' >Forgot password? <span onClick={()=>{navigate('/reset')}}>reset</span> </p>
         </div>
         <div className='flex items-center w-full h-4 text-center mt-4 gap-2'>
@@ -53,7 +110,8 @@ const Signin = () => {
 
           </div>
         </div>
-      </div>  
+      </div> 
+     
     </div>
   )
 }
