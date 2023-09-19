@@ -31,7 +31,7 @@ const Signin = () => {
         <input type="checkbox" name="remember" id="" /><p className='text-sm'>Remember me</p>
         </div>
 
-          <button className='w-full text-sm h-12 mt-8 auth-button ' onClick={()=>{navigate('/screen')}}>Signin</button>
+          <button className='w-full text-sm h-12 mt-8 auth-button ' onClick={()=>{navigate('/dashboard')}}>Signin</button>
           <p className='text-sm text-center mt-6' >Forgot password? <span onClick={()=>{navigate('/reset')}}>reset</span> </p>
         </div>
         <div className='flex items-center w-full h-4 text-center mt-4 gap-2'>
