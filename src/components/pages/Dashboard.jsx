@@ -75,7 +75,7 @@ const Dashboard = () => {
   return (
     <div className='p-4 h-full'>
         <NavHeader title={'Dashboard'} />
-        <div className='flex items-center w-full h-[80vh] justify-between'>
+        <div className='flex items-center w-full h-[80vh] gap-10'>
             <Sidebar />
             
             <div className=''>
@@ -199,7 +199,7 @@ const Dashboard = () => {
             </div>
             
             </div>
-            <div className=' h-fit p-9'>
+            <div className=' h-full p-9'>
                 <div className='bg-[#1E1E1E] p-4 flex rounded-xl items-center justify-between gap-4 mb-4'>
                     <div className='bg-[#2f2f2f] text-center align-middle p-4 rounded-xl'>
                         <PrivacyTipIcon className='text-red-500'/>
@@ -214,7 +214,7 @@ const Dashboard = () => {
 
                 </div>
                 <div className='relative h-fit w-full'>
-                    <img src="./car.png" alt="" srcset="" className='  w-fit object-cover h-25 p-4 '/>
+                    <img src="./car.png" alt="" srcset="" className='  w-full object-cover '/>
                     <div className='absolute items-center text-center p-4 bg-[#1E1E1E] top-10 left-10 rounded-full'>
                             <LockIcon/>
 
