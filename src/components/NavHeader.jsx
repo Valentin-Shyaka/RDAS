@@ -11,7 +11,7 @@ const NavHeader = ({title}) => {
         </svg>
         <h3 className='text-2xl font-bold ml-10'>{title}</h3>
 
-        <div className='flex text-sm ml-20 w-[25vw] bg-[#1E1E1E] h-12 items-center rounded-3xl p-2 gap-2'>
+        <div className='flex text-sm ml-20 w-[25vw] bg-[#1E1E1E] h-12 items-center rounded-3xl p-2  px-8 gap-2'>
          <SearchIcon className='text-[#A1A1A1]'/>
          <input type="text" name="" id="" placeholder='search' className='w-full bg-inherit outline-none' />
 
@@ -27,7 +27,7 @@ const NavHeader = ({title}) => {
                 <NotificationsIcon className='text-2xl ml-3'/>
             </Badge>
 
-            <img src="./user_profile.png" alt="" className='rounded-full w-[4vw] h-[7vh] ml-16' />
+            <img src="./user_profile.png" alt="" className='rounded-full w-[3rem] h-[3rem] ml-16 object-cover' />
             
         </div>
         

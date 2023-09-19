@@ -1,4 +1,8 @@
+import { useNavigate } from 'react-router-dom';
+import '../App.css'
+
 const CarDetails = () => {
+  const navigate = useNavigate()
   return (
     <div className="flex flex-wrap bg-inherit  items-center justify-center w-full gap-4 lg:gap-6 p-4 text-sm">
       <div className="flex flex-col border-[3px] rounded-lg items-center  p-4 gap-4">
@@ -23,14 +27,16 @@ const CarDetails = () => {
           <div className="bg-[#1d6d9b15] rounded-md flex flex-col p-4 justify-center gap-4">
             <span>Total Distance</span>
             <span>40,000 Km</span>
+            <span className="text-[#a7c706] text-sm font-semibold">Check Details</span>
           </div>
-          <div className="bg-[#1d6d9b15] rounded-md flex flex-col p-4 justify-center gap-4">
+          <div className="bg-[#1d6d9b42] rounded-md flex flex-col py-2 px-8 justify-center gap-3">
             <span>Tyre Pressure</span>
             <span>Type 1</span>
+            <span className="text-[#a7c706] text-sm font-semibold">Check Details</span>
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-2 p-4 border-[3px] rounded-lg">
+      <div className="flex flex-col items-center border-[#3a4861] gap-2 p-4 border-[4px] rounded-lg">
         <div className="flex flex-col items-center">
           <div className="w-[15rem] h-[60%]">
             <img src="./car.png" alt="" />
