@@ -12,7 +12,7 @@ const Screen = () => {
           <iframe
             width="420"
             height="315"
-            src="http://192.168.8.106:8000"
+            src="http://192.168.8.106:8000/stream"
             title="camera_video"
             className="w-full h-[60vh] rounded-xl"
           ></iframe>
