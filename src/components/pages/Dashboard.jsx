@@ -219,7 +219,7 @@ const Dashboard = () => {
                             <LockIcon/>
 
                     </div>
-                    <div className='absolute items-center text-center p-4 bg-[#d1f80ba1] top-5 left-[20rem] rounded-full'>
+                    <div className='absolute items-center text-center p-4 bg-[#d1f80bb7] top-5 left-[20rem] rounded-full'>
                             <LockOpenIcon/>
 
                     </div>
