@@ -2,9 +2,12 @@ import React from 'react'
 import GoogleIcon from '@mui/icons-material/Google';
 import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Signin = () => {
+  const navigate=useNavigate()
   return (
     <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-screen gap-10'>
       <div className='bubble w-[200px] h-[200px] absolute left-[42%] top-[2%] md:hidden lg:block'></div>
@@ -28,8 +31,8 @@ const Signin = () => {
         <input type="checkbox" name="remember" id="" /><p className='text-sm'>Remember me</p>
         </div>
 
-          <button className='w-full text-sm h-12 mt-8 auth-button '>Signin</button>
-          <p className='text-sm text-center mt-6'>Forgot password? </p>
+          <button className='w-full text-sm h-12 mt-8 auth-button ' onClick={()=>{navigate('/screen')}}>Signin</button>
+          <p className='text-sm text-center mt-6' onClick={()=>{navigate('/reset')}}>Forgot password? </p>
         </div>
         <div className='flex items-center w-full h-4 text-center mt-4 gap-2'>
           <hr className='flex-1 '/> <p className='text-sm'>or</p> <hr className='flex-1' />
@@ -42,7 +45,7 @@ const Signin = () => {
 
         </div>
         <div className='text-sm text-center mt-6'>
-          <p>Dont't have an account? signup</p>
+          <p>Dont't have an account? <span onClick={()=>{navigate('/signup')}}>signup</span></p>
           <div className='flex  mt-6 justify-between md:text-[0.8rem]'>
             <p>Terms&conditions</p>
             <p>support</p>

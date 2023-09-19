@@ -20,7 +20,7 @@ function App() {
     <BrowserRouter>
     <div className="bg-[#0F0F0F] w-full h-screen  text-white font-mono  gap-10">
     <Routes>
-      <Route path="/signin" element={<Signin/>}/>
+      <Route path="/" element={<Signin/>}/>
       <Route path="/signup" element={<Signup/>}/>
       <Route path="/reset" element={<ForgotPassword/>}/>
       <Route path="/dashboard" element={<Dashboard/>}/>

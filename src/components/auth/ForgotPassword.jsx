@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 
 const ForgotPassword = () => {
+  const navigate=useNavigate()
   return (
     <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-screen gap-10'>
       <div className='bubble w-[200px] h-[200px] absolute left-[42%] top-[8%] md:hidden lg:block'></div>
@@ -22,12 +24,12 @@ const ForgotPassword = () => {
         
         
 
-          <button className='w-full text-sm  h-12 mt-8 auth-button '>Reset pasword</button>
+          <button className='w-full text-sm  h-12 mt-8 auth-button ' onClick={()=>{navigate('/')}}>Reset pasword</button>
           
         </div>
        
         <div className='text-sm text-center mt-6'>
-          <p>Dont't have an account? signup</p>
+          <p>Dont't have an account?<span onClick={()=>{navigate('/signup')}}>signup</span> </p>
           <div className='flex  mt-6 justify-between md:text-[0.8rem]'>
             <p>Terms&conditions</p>
             <p>support</p>
