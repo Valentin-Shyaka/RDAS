@@ -8,7 +8,7 @@ import ShareRoundedIcon from '@mui/icons-material/ShareRounded';
 
 const MusicPlayer = () => {
   return (
-    <div className='mt-2 bg-[#1E1E1E] w-full h-24 rounded-xl flex p-4 gap-4 text-center relative'>
+    <div className='mt-4 bg-[#1E1E1E] w-full h-24 rounded-xl flex p-4 gap-4 text-center relative'>
       <img src="./user_profile.png" alt="" className=' rounded-lg w-20'  />
       <div className='h-full align-middle w-[50%] p-4 '>
         <p className='font-bold '>Close to you</p>

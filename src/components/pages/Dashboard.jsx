@@ -215,11 +215,11 @@ const Dashboard = () => {
                 </div>
                 <div className='relative h-fit w-full'>
                     <img src="./car.png" alt="" srcset="" className='  w-full object-cover '/>
-                    <div className='absolute items-center text-center p-4 bg-[#1E1E1E] top-10 left-10 rounded-full'>
+                    <div className='absolute items-center text-center p-4 bg-[#1E1E1E] top-5 left-10 rounded-full'>
                             <LockIcon/>
 
                     </div>
-                    <div className='absolute items-center text-center p-4 bg-[#d1f80ba1] top-10 left-[20rem] rounded-full'>
+                    <div className='absolute items-center text-center p-4 bg-[#d1f80ba1] top-5 left-[20rem] rounded-full'>
                             <LockOpenIcon/>
 
                     </div>
