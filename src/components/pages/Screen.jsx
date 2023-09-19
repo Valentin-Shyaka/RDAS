@@ -6,7 +6,7 @@ const Screen = () => {
   return (
     <div className="p-8 gap-4 flex flex-col">
       <NavHeader title={"Screen"} />
-      <div className="flex items-center w-full h-[80vh] gap-20">
+      <div className="flex items-center w-full h-[75vh] gap-20">
         <Sidebar />
         <div className="w-full">
           <iframe
