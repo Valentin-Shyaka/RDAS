@@ -5,7 +5,7 @@ export default function ApexChart() {
        const  series=[67];
        const  options={
           chart: {
-            height: 350,
+            height: 250,
             type: 'radialBar',
             offsetY: -10
           },
