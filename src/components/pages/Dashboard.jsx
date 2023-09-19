@@ -73,7 +73,7 @@ const Dashboard = () => {
       
     
   return (
-    <div className='p-4'>
+    <div className='p-4 h-full'>
         <NavHeader title={'Dashboard'} />
         <div className='flex items-center w-full h-[80vh] justify-between'>
             <Sidebar />
