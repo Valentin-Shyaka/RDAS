@@ -17,7 +17,7 @@ const NavHeader = ({title}) => {
 
         </div>
 
-        <div className='flex float-right ml-[10vw] gap-6 items-center md:hidden lg:block'>
+        <div className='flex  ml-[10vw] gap-6 items-center md:hidden lg:block'>
             <img src="./car_profile.svg" alt="" />
             <div className='flex-col text-center'>
                 <p className=' text-xl'>25 C</p>
