@@ -16,7 +16,7 @@ const Screen = () => {
             title="camera_video"
             className="w-full h-[60vh] rounded-xl"
           ></iframe>
-          <div className=" flex  p-6 w-full bg-[#1E1E1E] mt-6 rounded-xl justify-center gap-6">
+          <div className=" flex  p-4 w-full bg-[#1E1E1E] mt-6 rounded-xl justify-center gap-6">
             <div className="flex flex-col h-4/5 w-[15rem] gap-2 p-4 bg-orange-500 cursor-pointer rounded-md justify-center">
               <p className="text-sm">You are close to the obstacle <span className="text-sm">10 Metres</span></p>
               
