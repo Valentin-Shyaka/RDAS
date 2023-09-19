@@ -16,17 +16,17 @@ const Screen = () => {
             title="camera_video"
             className="w-full h-[60vh] rounded-xl"
           ></iframe>
-          <div className="h-[13rem] flex justify-center gap-[5rem] p-6 w-full bg-[#1E1E1E] mt-6 rounded-xl">
+          <div className="h-[13rem] flex  p-6 w-full bg-[#1E1E1E] mt-6 rounded-xl justify-center gap-6">
             <div className="flex flex-col h-4/5 w-[23rem] gap-2 p-4 bg-orange-500 cursor-pointer rounded-md justify-center">
-              <span className="text-xl">You are close to the obstacle</span>
-              <span className="text-xl">10 Metres</span>
+              <span className="text-sm">You are close to the obstacle</span>
+              <span className="text-sm">10 Metres</span>
             </div>
             <div className="flex h-4/5 w-[23rem] gap-2 p-4 bg-red-500 cursor-pointer items-center rounded-md justify-center">
-              <span className="text-4xl font-bold">STOP</span>
+              <span className="text-2xl font-bold">STOP</span>
             </div>
             <div className="flex flex-col h-4/5 w-[23rem] gap-2 p-4 px-8 bg-green-500 cursor-pointer rounded-md justify-center">
-              <span className="text-3xl">Speed</span>
-              <span className="text-3xl">45km/hr</span>
+              <span className="text-sm">Speed</span>
+              <span className="text-sm">45km/hr</span>
             </div>
           </div>
         </div>
