@@ -11,7 +11,7 @@ const Signin = () => {
   return (
     <div className='text-center text-3xl justify-center p-4 flex items-center h-full w-screen gap-10'>
       <div className='bubble w-[200px] h-[200px] absolute left-[42%] top-[2%] md:hidden lg:block'></div>
-      <div className='bubble w-[150px] h-[150px] absolute left-[82%] top-[75%] md:hidden lg:block'></div>
+      <div className='bubble w-[150px] h-[150px] absolute left-[80%] top-[75%] md:hidden lg:block'></div>
       <div className=' flex flex-col md:hidden lg:block '>
         <p className=' text-4xl'>Welcome Back.!</p>
         <div className='flex items-center gap-4'>
