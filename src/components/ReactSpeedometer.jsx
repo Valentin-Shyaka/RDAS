@@ -39,7 +39,7 @@ const Gauge =()=>{
                   ]}
                   needleTransitionDuration={9000}
                   needleTransition="easeElastic"
-                  currentValueText={`${value} kW`}
+                  currentValueText={`${value} km/H`}
                   value={value}
                   className="speedometer"
                 />
