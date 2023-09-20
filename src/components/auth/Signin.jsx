@@ -51,7 +51,7 @@ const Signin = () => {
         <p className=' text-4xl'>Welcome Back.!</p>
         <div className='flex items-center gap-4'>
         <button className='border border-white border-4 w-80 mt-4 h-16 text-sm rounded-md'>Skip the lag ?</button>
-        <div className='w-full border border-4 border-slate-500 border-dashed h-1 '></div>
+        <div className='w-full border-4 border-slate-500 border-dashed h-1 '></div>
         </div>
       </div>
       <div className='ml-20 w-35% h-fit auth-glass text-left p-8 z-10'>
