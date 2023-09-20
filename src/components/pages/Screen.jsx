@@ -1,6 +1,8 @@
 import React from "react";
 import NavHeader from "../NavHeader";
 import Sidebar from "../Sidebar";
+import ReactSpeedometer from "../ReactSpeedometer";
+import Gauge from "../ReactSpeedometer";
 
 const Screen = () => {
   return (
@@ -8,7 +10,7 @@ const Screen = () => {
       <NavHeader title={"Screen"} />
       <div className="flex items-center w-full h-[75vh] gap-20">
         <Sidebar />
-        <div className="w-full">
+        <div className="w-full relative ">
           <iframe
             width="420"
             height="315"
@@ -16,6 +18,7 @@ const Screen = () => {
             title="camera_video"
             className="w-full h-[60vh] rounded-xl"
           ></iframe>
+          <Gauge className='absolute top-00 left-40'/>
           <div className=" flex  p-2 w-full bg-[#1E1E1E] mt-2 rounded-xl justify-center gap-6">
             <div className="flex flex-col  w-[15rem] gap-2 p-2 bg-[#CFF80B] cursor-pointer rounded-md justify-center">
               <p className="text-sm">You are close to the obstacle <span className="text-sm">10 Metres</span></p>
