@@ -18,7 +18,7 @@ const Screen = () => {
             title="camera_video"
             className="w-full h-[60vh] rounded-xl overflow-hidden"
           ></iframe>
-          <Gauge className="absolute top-00 left-40" />
+          <Gauge className="speedometer" />
           <div className=" flex  p-2 w-full bg-[#1E1E1E] mt-2 rounded-xl justify-center gap-6">
             <div className="flex flex-col  w-[15rem] gap-2 p-2 bg-[#CFF80B] cursor-pointer rounded-md justify-center">
               <p className="text-sm">
