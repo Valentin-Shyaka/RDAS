@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "car-details",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "car-details": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "car-details",
+    "origin"
+  ]
+}
