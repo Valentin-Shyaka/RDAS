@@ -1,7 +1,7 @@
 import React from "react";
 import NavHeader from "../NavHeader";
 import Sidebar from "../Sidebar";
-import ReactSpeedometer from "../ReactSpeedometer";
+
 import Gauge from "../ReactSpeedometer";
 
 const Screen = () => {
