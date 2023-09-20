@@ -50,8 +50,8 @@ const Signin = () => {
       <div className=' flex flex-col md:hidden lg:block '>
         <p className=' text-4xl'>Welcome Back.!</p>
         <div className='flex items-center gap-4'>
-        <button className=' border border-white border-4 w-80 mt-4 h-16 text-sm'>skip the lag ?</button>
-        <div className='w-full border border-4 border-slate-500 border-dashed h-1 '></div>
+        <button className='border border-white border-4 w-80 mt-4 h-16 text-sm rounded-md'>Skip the lag ?</button>
+        <div className='w-full border-4 border-slate-500 border-dashed h-1 '></div>
         </div>
       </div>
       <div className='ml-20 w-35% h-fit auth-glass text-left p-8 z-10'>
@@ -59,9 +59,9 @@ const Signin = () => {
         <h3 className='mt-2'>Signin</h3>
         <p className='text-sm mt-4'>Glad you're back.!</p>
         
-        <input type='text' placeholder='username' className='mt-4 bg-inherit border border-white rounded-md text-sm h-10 w-full p-2 outline-none'></input>
+        <input type='text' placeholder='username' className='mt-4 bg-inherit border border-white rounded-md text-sm h-12 w-full p-2 indent-4 outline-none'></input>
         
-        <input type='text' placeholder='Password' className='mt-4 bg-inherit border border-white rounded-md text-sm h-10 w-full p-2 outline-none'></input>
+        <input type='password' placeholder='Password' className='mt-4 bg-inherit border border-white rounded-md text-sm h-12 w-full p-2 indent-4 outline-none'></input>
         <div className='flex items-center mt-4 gap-2'>
         <input type="checkbox" name="remember" id="" /><p className='text-sm'>Remember me</p>
         </div>

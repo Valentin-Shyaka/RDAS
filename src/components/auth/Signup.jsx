@@ -49,19 +49,19 @@ const Signup = () => {
       <div className=' flex flex-col md:hidden lg:block'>
         <p className=' text-4xl'>Roll the carpet.!</p>
         <div className='flex items-center gap-4'>
-        <button className=' border border-white border-4 w-80 mt-4 h-16 text-sm'>skip the lag ?</button>
+        <button className=' border border-white border-4 w-80 mt-4 h-16 text-sm rounded-md'>Skip the lag ?</button>
         <div className='w-full border border-4 border-slate-500 border-dashed h-1 '></div>
         </div>
       </div>
       <div className='ml-20 w-[35%] h-fit auth-glass text-left p-8 z-10'>
         <div>
         <h3 className='mt-2'>Signup</h3>
-        <p className='text-sm mt-4'>just some details to get you in.!</p>
+        <p className='text-sm mt-4'>Just some details to get you in!</p>
         
-        <input type='text' placeholder='username' className='mt-4 bg-inherit border border-white rounded-md text-sm h-10 w-full p-2 outline-none'></input>
-        <input type='text' placeholder='Email/Phone' className='mt-4 bg-inherit border border-white rounded-md text-sm h-10 w-full p-2 outline-none'></input>
-        <input type='text' placeholder='Password' className='mt-4 bg-inherit border border-white rounded-md text-sm h-10 w-full p-2 outline-none'></input>
-        <input type='text' placeholder='confirm password' className='mt-4 bg-inherit border border-white rounded-md text-sm h-10 w-full p-2 outline-none'></input>
+        <input type='text' placeholder='Username' className='mt-4 bg-inherit border border-white rounded-md text-sm h-12 w-full p-2 outline-none indent-4'></input>
+        <input type='text' placeholder='Email/Phone' className='mt-4 bg-inherit border border-white rounded-md text-sm h-12 w-full p-2 outline-none indent-4'></input>
+        <input type='text' placeholder='Password' className='mt-4 bg-inherit border border-white rounded-md text-sm h-12 w-full p-2 outline-none indent-4'></input>
+        <input type='text' placeholder='Confirm password' className='mt-4 bg-inherit border border-white rounded-md text-sm h-12 w-full p-2 outline-none indent-4'></input>
 
           <button className='w-full text-sm h-12 mt-6 auth-button ' onClick={()=>{
          setTimeout(()=>{

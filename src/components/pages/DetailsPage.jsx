@@ -6,10 +6,9 @@ const DetailsPage = () => {
   return (
     <div className='p-8'>
         <NavHeader title={'Car Details'} />
-        <div className='flex items-center w-full h-[80vh] gap-20'>
+        <div className='flex items-center w-full h-[80vh] gap-20 justify-center'>
             <Sidebar/>
-            
-            <div className='w-full h-[100%]'>
+            <div className='w-full h-[100%] flex justify-around'>
                 <CarDetails/>
             </div>
         </div>

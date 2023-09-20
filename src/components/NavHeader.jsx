@@ -13,7 +13,7 @@ const NavHeader = ({title}) => {
 
         <div className='flex text-sm ml-20 w-[25vw] bg-[#1E1E1E] h-12 items-center rounded-3xl p-2  px-8 gap-2'>
          <SearchIcon className='text-[#A1A1A1]'/>
-         <input type="text" name="" id="" placeholder='search' className='w-full bg-inherit outline-none' />
+         <input type="text" name="" id="" placeholder='Search' className='w-full bg-inherit outline-none' />
 
         </div>
 
