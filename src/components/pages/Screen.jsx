@@ -10,13 +10,13 @@ const Screen = () => {
       <NavHeader title={"Screen"} />
       <div className="flex items-center w-full h-[75vh] gap-20">
         <Sidebar />
-        <div className="w-full relative ">
+        <div className="w-full relative overflow-hidden">
           <iframe
             width="420"
             height="315"
             src="http://192.168.8.106:8000/stream"
             title="camera_video"
-            className="w-full h-[60vh] rounded-xl"
+            className="w-full h-[60vh] rounded-xl overflow-hidden"
           ></iframe>
           <Gauge className='absolute top-00 left-40'/>
           <div className=" flex  p-2 w-full bg-[#1E1E1E] mt-2 rounded-xl justify-center gap-6">

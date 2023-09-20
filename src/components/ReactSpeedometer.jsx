@@ -37,6 +37,8 @@ const Gauge =()=>{
                     "#a3be8c",
                     "#b48ead",
                   ]}
+                  needleColor="#CFF80B"
+                  textColor="red"
                   needleTransitionDuration={9000}
                   needleTransition="easeElastic"
                   currentValueText={`${value} km/H`}
