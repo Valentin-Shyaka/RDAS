@@ -84,8 +84,8 @@ const ForgotPassword = () => {
         </div>
        
         <div className='text-sm text-center mt-6'>
-          <p>Dont't have an account?<span onClick={()=>{navigate('/signup')}}>signup</span> </p>
-          <div className='flex  mt-6 justify-between md:text-[0.8rem]'>
+          <p>Dont't have an account? <span onClick={()=>{navigate('/signup')}} className='cursor-pointer'>signup</span> </p>
+          <div className='flex  mt-6 justify-between md:text-[0.8rem] cursor-pointer'>
             <p>Terms&conditions</p>
             <p>support</p>
             <p>customer care</p>

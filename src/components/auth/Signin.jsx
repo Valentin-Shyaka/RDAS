@@ -94,7 +94,7 @@ const Signin = () => {
         <div className='flex items-center w-full h-4 text-center mt-4 gap-2'>
           <hr className='flex-1 '/> <p className='text-sm'>or</p> <hr className='flex-1' />
         </div>
-        <div className=' text-center mt-4 gap-4 w-full'>
+        <div className=' text-center mt-4 gap-4 w-full cursor-pointer'>
           
               <GoogleIcon className='m-2 text-xl text-red-500'/>
               <FacebookOutlinedIcon className='m-2 text-xl text-blue-500'/>
@@ -102,8 +102,8 @@ const Signin = () => {
 
         </div>
         <div className='text-sm text-center mt-6'>
-          <p>Dont't have an account? <span onClick={()=>{navigate('/signup')}}>signup</span></p>
-          <div className='flex  mt-6 justify-between md:text-[0.8rem]'>
+          <p>Dont't have an account? <span onClick={()=>{navigate('/signup')}} className='cursor-pointer'>signup</span></p>
+          <div className='flex  mt-6 justify-between md:text-[0.8rem] cursor-pointer'>
             <p>Terms&conditions</p>
             <p>support</p>
             <p>customer care</p>
